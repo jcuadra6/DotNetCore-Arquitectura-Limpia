@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="ViewModels\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CoreArquitecturaLimpia.Domain\CoreArquitecturaLimpia.Domain.csproj" />
+    <ProjectReference Include="..\CoreArquitecturaLimpia.Infra.Data\CoreArquitecturaLimpia.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31229.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CoreArquitecturaLimpia.UI.MVC", "CoreArquitecturaLimpia.UI.MVC", "{A805215A-483C-4625-8BC2-7CDD5426EBEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CoreArquitecturaLimpia.Application", "CoreArquitecturaLimpia.Application", "{B0E0B9C6-D2A7-427A-A874-19252D2D16D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CoreArquitecturaLimpia.Domain", "CoreArquitecturaLimpia.Domain", "{0938131B-2BA3-4D19-904D-28579B54AC75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CoreArquitecturaLimpia.Infrastructure.Data", "CoreArquitecturaLimpia.Infrastructure.Data", "{775DC219-CFDD-4A3E-8577-1523567A88E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CoreArquitecturaLimpia.Infrastructure.Ioc", "CoreArquitecturaLimpia.Infrastructure.Ioc", "{D9EB26D2-7F6B-486D-B746-AC7D9288D3AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreArquitecturaLimpia.Web", "CoreArquitecturaLimpia.Web\CoreArquitecturaLimpia.Web.csproj", "{50BED28F-B35D-4CE8-95FB-A0ED2C9B6014}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreArquitecturaLimpia.Domain", "CoreArquitecturaLimpia.Domain\CoreArquitecturaLimpia.Domain.csproj", "{0B5DE074-9982-43CC-8ED5-9FDD9B2E5F06}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreArquitecturaLimpia.Infra.Data", "CoreArquitecturaLimpia.Infra.Data\CoreArquitecturaLimpia.Infra.Data.csproj", "{356D12CC-1D30-4686-90D9-D4B46322F4D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreArquitecturaLimpia.Application", "CoreArquitecturaLimpia.Application\CoreArquitecturaLimpia.Application.csproj", "{74482A17-A1D6-4C5B-91B1-7EAD53F2D2A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CoreArquitecturaLimpia.API", "CoreArquitecturaLimpia.API", "{DA2FB080-257C-4AD4-8E82-3FFC4BE9A709}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreArquitecturaLimpia.Infra.Ioc", "CoreArquitecturaLimpia.Infra.Ioc\CoreArquitecturaLimpia.Infra.Ioc.csproj", "{0220F7A8-03E0-41B9-8FD6-180578661025}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50BED28F-B35D-4CE8-95FB-A0ED2C9B6014}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50BED28F-B35D-4CE8-95FB-A0ED2C9B6014}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50BED28F-B35D-4CE8-95FB-A0ED2C9B6014}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50BED28F-B35D-4CE8-95FB-A0ED2C9B6014}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B5DE074-9982-43CC-8ED5-9FDD9B2E5F06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B5DE074-9982-43CC-8ED5-9FDD9B2E5F06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B5DE074-9982-43CC-8ED5-9FDD9B2E5F06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B5DE074-9982-43CC-8ED5-9FDD9B2E5F06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{356D12CC-1D30-4686-90D9-D4B46322F4D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{356D12CC-1D30-4686-90D9-D4B46322F4D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{356D12CC-1D30-4686-90D9-D4B46322F4D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{356D12CC-1D30-4686-90D9-D4B46322F4D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74482A17-A1D6-4C5B-91B1-7EAD53F2D2A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74482A17-A1D6-4C5B-91B1-7EAD53F2D2A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74482A17-A1D6-4C5B-91B1-7EAD53F2D2A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74482A17-A1D6-4C5B-91B1-7EAD53F2D2A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0220F7A8-03E0-41B9-8FD6-180578661025}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0220F7A8-03E0-41B9-8FD6-180578661025}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0220F7A8-03E0-41B9-8FD6-180578661025}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0220F7A8-03E0-41B9-8FD6-180578661025}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{50BED28F-B35D-4CE8-95FB-A0ED2C9B6014} = {A805215A-483C-4625-8BC2-7CDD5426EBEA}
+		{0B5DE074-9982-43CC-8ED5-9FDD9B2E5F06} = {0938131B-2BA3-4D19-904D-28579B54AC75}
+		{356D12CC-1D30-4686-90D9-D4B46322F4D7} = {775DC219-CFDD-4A3E-8577-1523567A88E5}
+		{74482A17-A1D6-4C5B-91B1-7EAD53F2D2A1} = {B0E0B9C6-D2A7-427A-A874-19252D2D16D8}
+		{0220F7A8-03E0-41B9-8FD6-180578661025} = {D9EB26D2-7F6B-486D-B746-AC7D9288D3AB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2364488-6A66-4143-89B9-4230DE3E9B4F}
+	EndGlobalSection
+EndGlobal
