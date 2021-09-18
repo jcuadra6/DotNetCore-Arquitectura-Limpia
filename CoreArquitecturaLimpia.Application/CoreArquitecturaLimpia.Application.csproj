@@ -15,4 +15,8 @@
     <ProjectReference Include="..\CoreArquitecturaLimpia.Infra.Data\CoreArquitecturaLimpia.Infra.Data.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="SendGrid" Version="9.24.2" />
+  </ItemGroup>
+
 </Project>

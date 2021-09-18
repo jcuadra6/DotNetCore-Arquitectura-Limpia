@@ -14,9 +14,7 @@ namespace CoreArquitecturaLimpia.Infra.Ioc
         {
             services.AddScoped<IProjectService, ProjectService>();
             services.AddScoped<IProjectRepository, ProjectRepository>();
-            /*
-            services.AddTransient<IEmailSender, EmailSender>();
-        */
+            services.AddTransient<CoreArquitecturaLimpia.Application.Interfaces.IEmailSender, EmailSender>();
         }
     }
 }

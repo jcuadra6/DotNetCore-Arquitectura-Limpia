@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CoreArquitecturaLimpia.Application.Services;
 using CoreArquitecturaLimpia.Infra.Data.Context;
 using CoreArquitecturaLimpia.Infra.Ioc;
 using CoreArquitecturaLimpia.Web.Data;
@@ -42,7 +43,12 @@ namespace CoreArquitecturaLimpia.Web
             //registramos las injecciones de dependencia
             RegisterServices(services);
 
+            //registrmos el envio de mensajes
+            services.Configure<AuthMessageSenderOptions>(
+                Configuration.GetSection("SendGrid")
+            );
 
+            
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();

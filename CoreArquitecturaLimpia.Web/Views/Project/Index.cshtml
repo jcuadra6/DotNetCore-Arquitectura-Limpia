@@ -1,0 +1,33 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+
+@model  CoreArquitecturaLimpia.Application.ViewModels.ProjectViewModel
+
+<table>
+    <thead>
+        <tr class="">
+            <td>
+                Id
+            </td>
+            <td>
+                Nombre
+            </td>
+        </tr>
+    </thead>
+    
+    <tbody>
+        @foreach (var proyecto in Model.Projects)
+        {
+        <tr style="height:60px;">
+            <td>
+                @proyecto.Id
+            </td>
+            <td>
+                @proyecto.Name
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
